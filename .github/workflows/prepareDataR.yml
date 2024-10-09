@@ -26,6 +26,6 @@ jobs:
           # this is to fix GIT not liking owner of the checkout dir
           chown -R $(id -u):$(id -g) $PWD
       - name: Run macro
-        run: (/cre/R/code/prepareDataR.sh)
+        run: (/cre/R/prepareDataR.sh)
       - name: Submit changes       
         uses: EndBug/add-and-commit@v9
