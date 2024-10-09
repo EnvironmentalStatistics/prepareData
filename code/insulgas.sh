@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 echo $(pwd)
 
 # First, install packages
