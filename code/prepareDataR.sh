@@ -2,4 +2,4 @@
 
 echo $(pwd)
 
-insulgas.sh
+./code/insulgas.sh
