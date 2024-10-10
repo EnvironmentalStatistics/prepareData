@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw"
+    ],
+    "tables": [
+        {
+            "url": [
+                "insulgas.csv"
+            ],
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "Insulate",
+                        "titles": "Insulate",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "Temp",
+                        "titles": "Temp",
+                        "datatype": "number"
+                    },
+                    {
+                        "name": "Gas",
+                        "titles": "Gas",
+                        "datatype": "number"
+                    }
+                ]
+            }
+        }
+    ]
+}
