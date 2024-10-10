@@ -9,10 +9,10 @@ write.table(insulgas, file = "data/insulgas/insulgas.csv", append = FALSE, quote
 
 png(
  filename="data/insulgas/insulgas.png",
- width = 3.0,
- height = 3.0,
+ width = 1.0,  #3
+ height = 1.0,  #3
  units = "in",
- res = 1200,
+ res = 300,  #1200
  pointsize = 4
 )
 par(
