@@ -20,7 +20,7 @@ par(
  xaxs = "i",
  yaxs = "i",
  cex.axis = 1, #2
- cex.lab = 1   #2
+ cex.lab = 1.5   #2
 )
 plot(Gas ~ Temp, data=insulgas, col=ifelse(insulgas$Insulate=="Before", "blue", "orange"))
 dev.off()
