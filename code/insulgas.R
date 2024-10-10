@@ -13,14 +13,14 @@ png(
  height = 1.0,  #3
  units = "in",
  res = 300,  #1200
- pointsize = 4
+ pointsize = 2
 )
 par(
  mar = c(5,5,2,2),
  xaxs = "i",
  yaxs = "i",
- cex.axis = 2,
- cex.lab = 2
+ cex.axis = 1, #2
+ cex.lab = 1   #2
 )
 plot(Gas ~ Temp, data=insulgas, col=ifelse(insulgas$Insulate=="Before", "blue", "orange"))
 dev.off()
