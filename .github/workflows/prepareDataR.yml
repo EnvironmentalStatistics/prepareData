@@ -30,10 +30,10 @@ jobs:
       - name: Run macro
         run: (/cre/R/code/prepareDataR.sh)
 
-      - name: cp csv
-        run: (cp /cre/R/data/insulgas/insulgas.csv data/insulgas/insulgas.csv)
-      - name: cp png
-        run: (cp /cre/R/data/insulgas/insulgas.png data/insulgas/insulgas.png)
+#      - name: cp csv
+#        run: (cp /cre/R/data/insulgas/insulgas.csv data/insulgas/insulgas.csv)
+#      - name: cp png
+#        run: (cp /cre/R/data/insulgas/insulgas.png data/insulgas/insulgas.png)
       - name: Submit changes       
         uses: EndBug/add-and-commit@v9
         with:
