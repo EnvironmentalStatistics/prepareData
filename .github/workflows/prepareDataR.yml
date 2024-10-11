@@ -25,11 +25,9 @@ jobs:
         run: |
           # this is to fix GIT not liking owner of the checkout dir
           chown -R $(id -u):$(id -g) $PWD
-##      - name: Install cmake
-##        run: (apt-get -y --no-install-recommends install cmake)
       - name: Run macro
         run: (/cre/R/code/prepareDataR.sh)
-
+## Same place!
 #      - name: cp csv
 #        run: (cp /cre/R/data/insulgas/insulgas.csv data/insulgas/insulgas.csv)
 #      - name: cp png
