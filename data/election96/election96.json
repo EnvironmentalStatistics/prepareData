@@ -1,0 +1,66 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw"
+    ],
+    "tables": [
+        {
+            "url": [
+                "election96.csv"
+            ],
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "popul",
+                        "titles": "popul",
+                        "datatype": "integer"
+                    },
+                    {
+                        "name": "TVnews",
+                        "titles": "TVnews",
+                        "datatype": "integer"
+                    },
+                    {
+                        "name": "selfLR",
+                        "titles": "selfLR",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "ClinLR",
+                        "titles": "ClinLR",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "DoleLR",
+                        "titles": "DoleLR",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "PID",
+                        "titles": "PID",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "age",
+                        "titles": "age",
+                        "datatype": "integer"
+                    },
+                    {
+                        "name": "educ",
+                        "titles": "educ",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "income",
+                        "titles": "income",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "vote",
+                        "titles": "vote",
+                        "datatype": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}

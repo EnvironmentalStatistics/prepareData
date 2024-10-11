@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw"
+    ],
+    "tables": [
+        {
+            "url": [
+                "turtle.csv"
+            ],
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "temp",
+                        "titles": "temp",
+                        "datatype": "number"
+                    },
+                    {
+                        "name": "male",
+                        "titles": "male",
+                        "datatype": "integer"
+                    },
+                    {
+                        "name": "female",
+                        "titles": "female",
+                        "datatype": "integer"
+                    }
+                ]
+            }
+        }
+    ]
+}
