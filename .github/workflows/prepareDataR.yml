@@ -36,5 +36,5 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
 #          pull: '--rebase --autostash ...'
-          add: 'data/insulgas/insulgas.csv data/insulgas/insulgas.json data/insulgas/insulgas.png'
+          add: 'data/*/*.csv data/*/*.json data/*/*.png'
           tag_push: '--force'
