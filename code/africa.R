@@ -32,7 +32,7 @@ dev.off()
 #https://cran.r-project.org/web/packages/csvwr/vignettes/read-write-csvw.html
 #https://csvw.org/
 
-schema <- derive_table_schema(insulgas)
+schema <- derive_table_schema(africa)
 tb <- list(url="africa.csv", tableSchema=schema)
 meta <- create_metadata(tables=list(tb))
 json <- jsonlite::toJSON(meta)
