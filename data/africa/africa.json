@@ -10,19 +10,49 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "name": "Insulate",
-                        "titles": "Insulate",
-                        "datatype": "string"
+                        "name": "miltcoup",
+                        "titles": "miltcoup",
+                        "datatype": "integer"
                     },
                     {
-                        "name": "Temp",
-                        "titles": "Temp",
+                        "name": "oligarchy",
+                        "titles": "oligarchy",
+                        "datatype": "integer"
+                    },
+                    {
+                        "name": "pollib",
+                        "titles": "pollib",
+                        "datatype": "integer"
+                    },
+                    {
+                        "name": "parties",
+                        "titles": "parties",
+                        "datatype": "integer"
+                    },
+                    {
+                        "name": "pctvote",
+                        "titles": "pctvote",
                         "datatype": "number"
                     },
                     {
-                        "name": "Gas",
-                        "titles": "Gas",
+                        "name": "popn",
+                        "titles": "popn",
                         "datatype": "number"
+                    },
+                    {
+                        "name": "size",
+                        "titles": "size",
+                        "datatype": "number"
+                    },
+                    {
+                        "name": "numelec",
+                        "titles": "numelec",
+                        "datatype": "integer"
+                    },
+                    {
+                        "name": "numregim",
+                        "titles": "numregim",
+                        "datatype": "integer"
                     }
                 ]
             }
